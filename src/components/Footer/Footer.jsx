@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/hareeshss" 
+              href="https://github.com/SSHareesh" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-light-400/50 dark:bg-dark-100/50 
@@ -25,7 +25,7 @@ const Footer = () => {
               <Github size={20} className="text-dark-300 dark:text-light-300" />
             </a>
             <a 
-              href="https://linkedin.com/in/hareeshss" 
+              href="https://www.linkedin.com/in/hareesh-s-s-7478b1257/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-light-400/50 dark:bg-dark-100/50 
