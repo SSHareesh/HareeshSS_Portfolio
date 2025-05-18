@@ -17,7 +17,7 @@ const experiences = [
   },
   {
     role: 'Web Developer Intern',
-    company: 'Tech Innovations',
+    company: 'Codsoft',
     period: 'Jun 2024 - Aug 2024',
     description: [
       'Developed and maintained responsive web applications using modern JavaScript frameworks.',
@@ -25,7 +25,7 @@ const experiences = [
       'Optimized application performance resulting in 35% faster load times.',
       'Participated in agile development cycles and daily stand-up meetings.',
     ],
-    skills: ['JavaScript', 'CSS3', 'React', 'Responsive Design', 'REST APIs'],
+    skills: ['JavaScript', 'CSS3', 'HTML', 'Responsive Design'],
   },
 ];
 

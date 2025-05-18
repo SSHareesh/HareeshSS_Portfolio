@@ -7,29 +7,29 @@ const projects = [
     title: 'Renewify - Solar Energy Aggregator App',
     description: 'A Flutter-based application interface improving user engagement by 40% and ensuring stable API integrations having 15+ pages.',
     image: 'https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    github: 'https://github.com/hareeshss/renewify',
+    github: 'https://github.com/SSHareesh/Renewify',
     techStack: ['Flutter', 'Firebase', 'REST APIs', 'Material Design']
   },
   {
     title: 'Aerial Inspect - PV potential assessment',
     description: 'Visualized 50+ buildings in 3D using Three.js after extracting data from GeoJSON. Implemented ray casting for accurate BPV shadow analysis.',
     image: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    github: 'https://github.com/hareeshss/aerial-inspect',
+    github: 'https://github.com/SSHareesh/BIPV',
     techStack: ['Three.js', 'GeoJSON', 'JavaScript', 'WebGL']
   },
   {
-    title: 'SyncHub - Community platform for college students',
+    title: 'SynergIQ - Community platform for college students',
     description: 'Led a 4-member team to develop a responsive web frontend using React.js and Tailwind CSS. Integrated APIs with the backend.',
     image: 'https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    github: 'https://github.com/hareeshss/synchub',
+    github: 'https://github.com/SSHareesh/SynergIQ',
     techStack: ['React.js', 'Tailwind CSS', 'Node.js', 'MongoDB']
   },
   {
-    title: 'Portfolio Website',
-    description: 'A modern, responsive portfolio website built with React and Tailwind CSS featuring dark/light mode, animations, and a custom cursor.',
+    title: 'Anemia Detection',
+    description: 'A Machine learning project that detects if the person is anemic or not ,a comparitive ML project for studying the best algorithm.',
     image: 'https://images.pexels.com/photos/4050383/pexels-photo-4050383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    github: 'https://github.com/hareeshss/portfolio',
-    techStack: ['React.js', 'Tailwind CSS', 'Framer Motion', 'TypeWriter Effect']
+    github: 'https://github.com/SSHareesh/Anemia_detection',
+    techStack: ['Logistic Regression', 'Random Forest', 'Decision Trees']
   },
 ];
 
