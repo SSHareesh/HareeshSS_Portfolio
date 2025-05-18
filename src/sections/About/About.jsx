@@ -48,7 +48,7 @@ const About = () => {
             <div className="relative">
               <div className="w-60 h-60 sm:w-72 sm:h-72 rounded-2xl overflow-hidden border-4 border-light-300 dark:border-dark-100 shadow-xl">
                 <img 
-                  src="src/Assets/images/hareesh_photo.jpg" 
+                  src="/images/hareesh_photo.jpg" 
                   alt="Hareesh S S"
                   className="w-full h-full object-cover" 
                 />
