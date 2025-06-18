@@ -13,7 +13,7 @@ const experiences = [
       'Created clean, modular, and maintainable code. Documented a user manual for ease of use.',
       'Collaborated with backend team, enabling 40% faster API integration via regular code reviews.',
     ],
-    skills: ['React.js', 'Tailwind CSS', 'API Integration', 'UI/UX Design'],
+    skills: ['PERN Stack', 'UI/UX Design','Project Management'],
   },
   {
     role: 'Web Developer Intern',

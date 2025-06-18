@@ -59,32 +59,19 @@ const ProjectCard = ({ project, index }) => {
       </div>
 
       <motion.div
-        className="absolute inset-0 bg-cover bg-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-500"
-        style={{ backgroundImage: `url(${project.image})` }}
+        className="absolute inset-0 bg-dark-300/90 backdrop-blur-sm transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 flex items-center justify-center"
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-dark-300/90 to-transparent flex items-end p-8">
-          <div>
-            <h3 className="text-3xl font-bold text-white mb-4">{project.title}</h3>
-            <div className="flex flex-wrap gap-2 mb-6">
-              {project.techStack.map((tech, i) => (
-                <span 
-                  key={i}
-                  className="px-3 py-1 bg-white/10 backdrop-blur-sm text-white rounded-full text-sm font-medium"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-white hover:text-primary-500 transition-colors"
-            >
-              <Github size={24} />
-              <span>View on GitHub</span>
-            </a>
-          </div>
+        <div className="text-center p-8">
+          <Github size={48} className="mx-auto mb-4 text-white" />
+          <h3 className="text-3xl font-bold text-white mb-4">{project.title}</h3>
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-2 text-white hover:text-primary-500 transition-colors"
+          >
+            <span>View on GitHub</span>
+          </a>
         </div>
       </motion.div>
     </motion.div>
@@ -108,11 +95,29 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {projects.map((project, index) => (
             <ProjectCard key={index} project={project} index={index} />
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="flex justify-center"
+        >
+          <a
+            href="https://github.com/SSHareesh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-2 px-6 py-3 bg-primary-500 text-white rounded-full hover:bg-primary-600 transition-colors"
+          >
+            <Github size={24} />
+            <span>View More Projects</span>
+          </a>
+        </motion.div>
       </div>
     </section>
   );

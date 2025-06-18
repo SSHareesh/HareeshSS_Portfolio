@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { Send, Mail, MapPin, Phone } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -13,11 +14,17 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      // Here we would normally send the form data to an API endpoint
-      // For example: await fetch('/api/contact', { method: 'POST', body: JSON.stringify(data) })
-      
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      await emailjs.send(
+        process.env.VITE_EMAILJS_SERVICE_ID,
+        process.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: data.name,
+          from_email: data.email,
+          message: data.message,
+          to_email: 'hareeshseenu95@gmail.com',
+        },
+        process.env.VITE_EMAILJS_PUBLIC_KEY
+      );
       
       setSubmitStatus({ type: 'success', message: 'Your message has been sent! I\'ll get back to you soon.' });
       reset();
