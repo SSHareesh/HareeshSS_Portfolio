@@ -8,7 +8,7 @@ const projects = [
     description: 'A Flutter-based application interface improving user engagement by 40% and ensuring stable API integrations having 15+ pages.',
     image: 'https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     github: 'https://github.com/SSHareesh/Renewify',
-    techStack: ['Flutter', 'Firebase', 'REST APIs', 'Material Design']
+    techStack: ['Flutter', 'MongoDB','Flask',]
   },
   {
     title: 'Aerial Inspect - PV potential assessment',
@@ -22,7 +22,7 @@ const projects = [
     description: 'Led a 4-member team to develop a responsive web frontend using React.js and Tailwind CSS. Integrated APIs with the backend.',
     image: 'https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     github: 'https://github.com/SSHareesh/SynergIQ',
-    techStack: ['React.js', 'Tailwind CSS', 'Node.js', 'MongoDB']
+    techStack: ['React.js', 'Tailwind CSS', 'Node.js','Firebase' ]
   },
   {
     title: 'Anemia Detection',
