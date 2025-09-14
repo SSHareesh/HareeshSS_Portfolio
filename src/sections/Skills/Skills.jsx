@@ -4,7 +4,7 @@ import {
   SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs,
   SiExpress, SiTailwindcss, SiBootstrap, SiFlutter,
   SiPostman, SiGit, SiMysql, SiPostgresql, SiFirebase,
-  SiBlender, SiPython,SiFlask,SiCanva
+  SiBlender, SiPython,SiCanva,SiDjango
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa6';
 import { TbBrandFlutter } from 'react-icons/tb';
@@ -26,7 +26,7 @@ const skillCategories = [
     skills: [
       { name: 'Node.js', icon: SiNodedotjs, proficiency: 65 },
       { name: 'Express.js', icon: SiExpress, proficiency: 65 },
-      { name: 'Flask', icon: SiFlask, proficiency: 50},
+      { name: 'Django', icon: SiDjango, proficiency: 60},
     ]
   },
   {
